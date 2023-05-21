@@ -27,7 +27,7 @@
 
 <hr><h1 align="center"><b>🔥 <i>Know-How</i> 🔥</b></h1>
 <center>
- <br><h4 align=center>
+<h4 align=center>
 
 ```<---              Tools              --->```
 
@@ -38,19 +38,18 @@
 ```<---     Programming Languages       --->```
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-</h4></center><br><br>
+</h4></center>
 
 
 <hr><h1 align="center"><b>🌍 <i>Contact Me</i> 🌍</b></h1> 
 <p align="center"><br>
-<a href="https://open.spotify.com/user/necj33rd3m1wb5klvdjtp4z1q?si=be17277a60be486b"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white"></a> <a href="https://anilist.co/user/ThunderBlaze/"><img src="https://img.shields.io/badge/AniList-AniList-blue?style=for-the-badge&logo=Anilist&logoColor=white&labelColor=%2306BEE1&color=%2306BEE1&label="></a><br>
+<a href="https://open.spotify.com/user/necj33rd3m1wb5klvdjtp4z1q?si=be17277a60be486b"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white"></a> <a href="https://anilist.co/user/ThunderBlaze/"><img src="https://img.shields.io/badge/AniList-AniList-blue?style=for-the-badge&logo=Anilist&logoColor=white&labelColor=%2306BEE1&color=%2306BEE1&label="></a>
 
 
 <hr><h1 align="center"><b>❄ <i>Some Repositories</i> ❄</b></h1> 
-<p align="center"><br>
-<a href="https://github.com/thunder-blaze/Anilist-CSS">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=thunder-blaze&repo=Anilist-CSS&border_radius=10&icon_color=06BEE1&locale=en&include_all_commits=true&text_color=E2F1F1&title_color=00FFFF&bg_color=102060" />
-</a>
-<a href="https://github.com/thunder-blaze/thunder-blaze.github.io">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=thunder-blaze&repo=thunder-blaze.github.io&border_radius=10&icon_color=06BEE1&locale=en&include_all_commits=true&text_color=E2F1F1&title_color=00FFFF&bg_color=102060" />
-</a><br><hr>
+<p align="center">
+ 
+| <a href="https://github.com/thunder-blaze/Anilist-CSS"><img height="155" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=thunder-blaze&repo=Anilist-CSS&border_radius=10&icon_color=06BEE1&locale=en&include_all_commits=true&text_color=E2F1F1&title_color=00FFFF&bg_color=102060" /></a> | <a href="https://github.com/thunder-blaze/thunder-blaze.github.io"><img height="155" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=thunder-blaze&repo=thunder-blaze.github.io&border_radius=10&icon_color=06BEE1&locale=en&include_all_commits=true&text_color=E2F1F1&title_color=00FFFF&bg_color=102060" /></a> |
+| ------------- | ------------- |
+ 
+</p>
