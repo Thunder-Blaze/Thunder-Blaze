@@ -19,7 +19,7 @@
 <hr><h1 align="center"><b>💦 <i>Stats</i> 💦</b></h1>
 <p align="center">
 
-| <img height=155 align="center" src="https://github-readme-stats.vercel.app/api?username=thunder-blaze&hide=issues&count_private=true&text_bold=false&cache_seconds=86400&border_radius=10&icon_color=06BEE1&show_icons=true&locale=en&include_all_commits=true&text_color=E2F1F1&title_color=00FFFF&bg_color=102060" alt="thunder-blaze stats" /> | <img height=155 align="center" src="https://github-readme-streak-stats.herokuapp.com?user=thunder-blaze&theme=react&border_radius=10&background=102060&border=E2F1F1&fire=00FFFF&ring=06BEE1&sideLabels=06BEE1&currStreakNum=00FFFF&currStreakLabel=00FFFF&sideNums=00FFFF&dates=E2F1F1" alt="thunder-blaze streak" /> |
+| <img height=155 align="center" src="https://github-readme-stats.vercel.app/api?username=thunder-blaze&hide=issues&count_private=true&text_bold=false&border_radius=10&icon_color=06BEE1&show_icons=true&locale=en&include_all_commits=true&text_color=E2F1F1&title_color=00FFFF&bg_color=102060" alt="thunder-blaze stats" /> | <img height=155 align="center" src="https://github-readme-streak-stats.herokuapp.com?user=thunder-blaze&theme=react&border_radius=10&background=102060&border=E2F1F1&fire=00FFFF&ring=06BEE1&sideLabels=06BEE1&currStreakNum=00FFFF&currStreakLabel=00FFFF&sideNums=00FFFF&dates=E2F1F1" alt="thunder-blaze streak" /> |
 | ------------- | ------------- |
 
 </p>
