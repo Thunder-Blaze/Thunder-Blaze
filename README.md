@@ -4,7 +4,7 @@
 </p>
 <hr>
 <h1 align="center"><b>✨<i>About Me</i>✨</b></h1>
-<img height="200px" align="right" src="./Assets/Eren-Mikasa-Armin.png">
+<img width=375 align="right" src="./Assets/Eren-Mikasa-Armin.png">
 <div align="left"><b>>>> Name = </b>"Shivansh Jain"
 <br><b> >>> Loves = </b>["Anime", "Coding", "Sleeping"]
 <br><b> >>> Gender = </b>"He/Him/Male ♂️"
