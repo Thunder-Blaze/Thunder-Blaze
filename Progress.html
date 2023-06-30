@@ -7,30 +7,152 @@
 </head>
 <style type="text/css">
 	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+	html {
+		--lime: #C3FF0E;
+		--blue: #01BAEF;
+		--white: #FFFFFF;
+		--bg: #101121;
+		--bgn: #022B3A;
+/*		--bgn: #201121;*/
+		--fg: #E1E5F2;
+	}
 	body {
 		margin: 0;
-		background: #101121;
-		color: #E1E5F2;
+		background: var(--bg);
+		color: var(--fg);
 		font-family: "Poppins";
 		font-size: 1.2rem;
 		letter-spacing: 0.01rem;
 		word-spacing: 0.2rem;
 /*		#01BAEF*/
 	}
+	#nav {
+		height: 65px;
+		position: relative;
+		top: 0;
+		width: calc(100% - 100px);
+		background: var(--bgn);
+		/*  border-bottom: 1px solid #FFF2;*/
+		color: var(--white);
+		display: flex;
+		z-index: 99999;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding-left: 50px;
+		padding-right: 50px;
+		transition: all 0.3s ease-in-out;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+	}
+	#nav .logo {
+		height: 42px;
+	}
+	#nav .menu {
+		cursor: pointer;
+		height: 26px;
+		width: 32px;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		top: 19.5px;
+		right: 15px;
+		display: none;
+	}
+	#nav .menu .line {
+		height: 2px;
+		width: 32px;
+		position: absolute;
+		background: var(--white);
+		border-radius: 2px;
+		transition: all 300ms ease;
+	}
+	#nav .menu .line1 {
+		height: 26px;
+	}
+	#nav .menu .line1::after {
+		content: 'MENU';
+		font-size: 10px;
+		color: var(--bg);
+		width: 32px;
+		height: 26px;
+		align-items: center;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    justify-content: center;
+	    display: flex;
+	}
+	#nav .menu .line2 {
+		top: 0;
+	}
+	#nav .menu .line3 {
+		bottom: 0;
+	}
+	#nav .menu.active .line1 {
+		opacity: 0;
+	}
+	#nav .menu.active .line2 {
+		top: unset;
+		transform: rotate(45deg);
+	}
+	#nav .menu.active .line3 {
+		bottom: unset;
+		transform: rotate(-45deg);
+	}
+	#nav .nav-wrap {
+		height: 100%;
+		display: flex;
+		font-size: 1.1rem;
+		align-items: center;
+		justify-content: center;
+		transition: all 300ms ease;
+	}
+	#nav .nav-wrap .links {
+	  	color: var(--blue);
+	  	text-decoration: none;
+	  	font-weight: 600;
+/*	  margin: 14px 30px;*/
+		border-radius: 10px;
+	  	padding: 12px 30px;
+	  	transition: all 500ms ease-in-out;
+	  	position: relative;
+	}
+	/*#nav .nav-wrap .links::after {
+	  content: '';
+	  width: 0;
+	  height: 0;
+	  top: 50%;
+	  left: 50%;
+	  z-index: -1;
+	  border-radius: 3px;
+	  transform: translate(-50%,-50%);
+	  background: var(--lime);*/ /*var(--ac);*/
+	  /*position: absolute;
+	  transition: all 300ms ease;
+	}
+	#nav .nav-wrap .links:hover::after {
+	  content: '';
+	  height: 100%;
+	  width: 130%;
+	}*/
+	#nav .nav-wrap .links:hover {
+		color: var(--lime);
+		background: var(--bg);
+	}
 	hr {
-		border-color: #01BAEF;
+		border-color: var(--blue);
 	}
 	::-webkit-scrollbar {
 		height: 5px;
 		width: 5px;
 	}
 	::-webkit-scrollbar-thumb {
-	  background: #01BAEF;
-	  border-radius: 3px;
+	  	background: var(--blue);
+	  	border-radius: 3px;
 	}
 	body > h1 {
-		color: #C3FF0E;
-		font-size: 4rem;
+		color: var(--lime);
+		font-size: 5rem;
 	}
 	.container {
 		padding: 2rem;
@@ -43,17 +165,16 @@
 /*		margin: 0;*/
 		padding-top: 0.67em;
 		padding-bottom: 0.67em;
-	    background-color: #01BAEF;
+	    background-color: var(--blue);
 	}
 	.container h2 {
 		text-align: center;
-	    color: #01BAEF;
+	    color: var(--blue);
 	}
 	.container > label {
 		display: grid;
-		grid-column-gap: 10px;
 		grid-template-columns: 40px auto;
-		background-color: #022B3A;
+		background-color: var(--bgn);
 		padding: 20px;
 	}
 	input[type="checkbox"] {
@@ -61,13 +182,13 @@
 	  -webkit-appearance: none;
 	  appearance: none;
 	  /* For iOS < 15 to remove gradient background */
-	  background-color: #fff;
+	  background-color: var(--white);
 	  /* Not removed via appearance */
 	  margin: 0;
 	}
 	input[type="checkbox"] {
 		appearance: none;
-		background-color: #101121;
+		background-color: var(--bg);
 		margin: 0;
 		font: inherit;
 		color: currentColor;
@@ -86,22 +207,88 @@
 		transform: scale(0);
 		border-radius: 0.1em;
 		transition: 120ms transform ease-in-out;
-		box-shadow: inset 1em 1em #C3FF0E;
+		box-shadow: inset 1em 1em var(--lime);
 		will-change: transform;
 	}
 	input[type="checkbox"]:checked::before {
 		transform: scale(1);
 	}
 	div.highlight {
-		color: #01BAEF;
+		color: var(--blue);
 		font-weight: 700;
 	}
 	div.checked {
-		color: #C3FF0E;
+		color: var(--lime);
 		font-weight: 700;
+	}
+	@media (max-width: 1024px) {
+		body{
+			font-size: 1rem;
+		}
+		#nav{
+		  width: 100%;
+		  padding: 0;
+		  position: absolute;
+		  flex-direction: column;
+		  justify-content: center;
+		  align-items: flex-start;
+		  height: 65px;
+		  overflow: hidden;
+		  transition: height 500ms ease-in-out;
+		}
+		#nav.active {
+			height: 266px;
+		}
+		#nav .logo {
+		  padding: 12px;
+		}
+		#nav .nav-wrap{
+		  position: relative;
+		  flex-direction: column;
+		  font-size: 1.4rem;
+		  text-align: left;
+		  background: var(--bg);
+		  justify-content: center;
+		  height: 100%;
+		  padding: 0 30px 0 30px;
+		  width: calc(100vw - 60px);
+		  overflow: hidden;
+		}
+		#nav .nav-wrap .links{
+			position: relative;
+		 	padding: 8px 0 8px 0;
+		 	font-weight: 500;
+		}
+		#nav .menu{
+		  display: flex;
+		}
+		body > h1 {
+			font-size: 2.6rem;
+			margin-top: calc(0.67em + 65px);
+		}
+		.container {
+			padding: 1rem;
+		}
+		.container h1 {
+			width: calc(100% + 3rem);
+		}
 	}
 </style>
 <body>
+	<header id="nav" class="nav">
+	  <img class="logo" src="https://thunder-blaze.github.io/Anilist-CSS/Preview/Logo.svg" alt="Logo">
+	  <div class="menu" onclick="navbar()">
+	    <div class="line line1"></div>
+	    <div class="line line2"></div>
+	    <div class="line line3"></div>
+	  </div>
+	  <div class="nav-wrap">
+	    <a href="https://thunder-blaze.github.io/" class="links">Home</a>
+	    <a href="https://thunder-blaze.github.io/About" class="links">About</a>
+	    <a href="../FLC" class="links">Projects</a>
+	    <a href="../Anilist-CSS" class="links">Anilist-CSS</a>
+	  </div>
+	</header>
 	<h1 align="center">JEE PROGRESS</h1>
 	<hr>
 	<div class="container">
@@ -663,5 +850,14 @@
   			<div class="highlight">Chapter 46 - Chemistry in Everyday Life</div>
   		</label>
 	</div>
+	<script type="text/javascript">
+		const menu = document.querySelector('.menu');
+		const nav = document.querySelector('#nav');
+
+		function navbar() {
+		  	menu.classList.toggle('active')
+		  	nav.classList.toggle('active')
+		}
+	</script>
 </body>
 </html>
