@@ -108,7 +108,7 @@
 		transition: all 300ms ease;
 	}
 	#nav .nav-wrap .links {
-	  	color: var(--blue);
+	  	color: var(--white);
 	  	text-decoration: none;
 	  	font-weight: 600;
 /*	  margin: 14px 30px;*/
@@ -154,6 +154,9 @@
 		color: var(--lime);
 		font-size: 5rem;
 	}
+	body > h4 {
+		margin-bottom: 0;
+	}
 	.container {
 		padding: 2rem;
 	}
@@ -167,13 +170,16 @@
 		padding-bottom: 0.67em;
 	    background-color: var(--blue);
 	}
+	.container h1:nth-child(1) {
+		margin-top: 0;
+	}
 	.container h2 {
 		text-align: center;
 	    color: var(--blue);
 	}
 	.container > label {
 		display: grid;
-		grid-template-columns: 40px auto;
+		grid-template-columns: 40px 40px 40px auto;
 		background-color: var(--bgn);
 		padding: 20px;
 	}
@@ -291,18 +297,25 @@
 	</header>
 	<h1 align="center">JEE PROGRESS</h1>
 	<hr>
+	<h4 align="center">Revision - Short Notes - PYQs</h4>
 	<div class="container">
 		<h1>Mathematics</h1>
 		<h3>Unit - I</h3>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" checked/>
+  			<input type="checkbox" name="checkbox" checked/>
   			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 1 - FOM-I</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 2 - FOM-II</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 3 - Relation, Functions & ITF</div>
   		</label>
@@ -310,9 +323,13 @@
 		<h3>Unit - II</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 4 - Quadratic Equation</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 5 - Complex Numbers</div>
   		</label>
@@ -320,11 +337,15 @@
 		<h3>Unit - III</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 6 - Matrices and Determinants</div>
   		</label>
 
 		<h3>Unit - IV</h3>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 7 - Binomial Theorem</div>
   		</label>
@@ -332,11 +353,15 @@
 		<h3>Unit - V</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 8 - Permutation and Combination</div>
   		</label>
 
 		<h3>Unit - VI</h3>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 9 - Sequence and Series</div>
   		</label>
@@ -344,11 +369,15 @@
 		<h3>Unit - VII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 10 - Mathematical Induction</div>
   		</label>
 
 		<h3>Unit - VIII</h3>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 11 - Trigonometry</div>
   		</label>
@@ -356,13 +385,19 @@
 		<h3>Unit - IX</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 12 - Modes of Differenciation</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 13 - Application of Derivatives</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 14 - Limit, Continuity, and Differentiability</div>
   		</label>
@@ -370,9 +405,13 @@
 		<h3>Unit - X</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 15 - Indefinite Integration</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 16 - Definite Integration</div>
   		</label>
@@ -380,19 +419,27 @@
 		<h3>Unit - XI</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 17 - Differential Equation</div>
   		</label>
 
 		<h3>Unit - XII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 18 - Straight Line</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 19 - Circle</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 20 - Conic Section</div>
   		</label>
@@ -400,13 +447,19 @@
 		<h3>Unit - XIII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 21 - Vector and Three Dimensional Geometry</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 22 - Application of Derivatives</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 23 - Limit, Continuity, and Differentiability</div>
   		</label>
@@ -414,9 +467,13 @@
 		<h3>Unit - XIV</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 24 - Statistics</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 25 - Probability</div>
   		</label>
@@ -424,11 +481,15 @@
 		<h3>Unit - XV</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 26 - Mathematical Reasoning</div>
   		</label>
 
 		<h3>Unit - XVI (Removed)</h3>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 27 - Solution of Triangle</div>
   		</label>
@@ -441,9 +502,13 @@
 		<h3>Unit - I</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 1 - Units and Dimension</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 2 - Measurement Errors and Experiments</div>
   		</label>
@@ -451,21 +516,31 @@
 		<h3>Unit - II</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" checked/>
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 3 - Mathematical Tools</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 4 - Rectilinear Motion</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 5 - Relative Motion</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 6 - Projectile Motion</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 7 - Circular Motion</div>
   		</label>
@@ -473,9 +548,13 @@
 		<h3>Unit - III</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 8 - Newton's Laws of Motion</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 9 - Friction</div>
   		</label>
@@ -483,15 +562,21 @@
 		<h3>Unit - IV</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 10 - Work, Energy and Power</div>
   		</label>
 
 		<h3>Unit - V</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 11 - Centre of Mass</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 12 - Rigid Body Dynamics</div>
   		</label>
@@ -499,13 +584,19 @@
 		<h3>Unit - VI</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 13 - Electrostatics</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 14 - Capicitance</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 15 - Current Electricity</div>
   		</label>
@@ -513,13 +604,19 @@
 		<h3>Unit - VII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 16 - Simple Harmonic Motion</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 17 - Wave on a String</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 18 - Sound Waves</div>
   		</label>
@@ -527,27 +624,39 @@
 		<h3>Unit - VIII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 19 - Gravitation</div>
   		</label>
 
 		<h3>Unit - IX</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 20 - Elasticity and Viscosity</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 21 - Calorimetry and Expansion</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 22 - Fluid Mechanics</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 23 - Surface Tension</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 24 - Heat Transfer</div>
   		</label>
@@ -555,11 +664,15 @@
 		<h3>Unit - X</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 25 - KTG and Thermodynamics</div>
   		</label>
 
 		<h3>Unit - XI</h3>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 26 - Magnetic Effects of Current and Magnetism</div>
   		</label>
@@ -567,9 +680,13 @@
 		<h3>Unit - XII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 27 - Electromagnetic Induction</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 28 - Alternating Current</div>
   		</label>
@@ -577,15 +694,21 @@
 		<h3>Unit - XIII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 29 - Electromagnetic Waves</div>
   		</label>
 
 		<h3>Unit - XIV</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 30 - Geometrical Optics</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 31 - Wave Optics</div>
   		</label>
@@ -593,9 +716,13 @@
 		<h3>Unit - XV</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 32 - Modern Physics</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 33 - Nuclear Physics</div>
   		</label>
@@ -603,11 +730,15 @@
 		<h3>Unit - XVI</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 34 - Solids and Semiconductor Devices</div>
   		</label>
 
 		<h3>Unit - XVII</h3>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 35 - Principle of Communication</div>
   		</label>
@@ -621,9 +752,13 @@
 		<h3>Unit - I</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" checked/>
+  			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 1 - Introduction to Chemistry</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 2 - Mole Concept</div>
   		</label>
@@ -631,17 +766,25 @@
 		<h3>Unit - II</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 3 - Ideal Gas</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 4 - Real Gas</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 5 - Solution and Colligative Properties</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 6 - Solid State</div>
   		</label>
@@ -649,23 +792,33 @@
 		<h3>Unit - II</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 7 - Atomic Structure</div>
   		</label>
 
 		<h3>Unit - IV</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 8 - Chemical Bonding - I</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 9 - Chemical Bonding - II</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 10 - Chemical Bonding - III</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 11 - Chemical Bonding - IV</div>
   		</label>
@@ -673,19 +826,27 @@
 		<h3>Unit - V</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 12 - Thermodynamics and Thermochemistry</div>
   		</label>
 
 		<h3>Unit - VI</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 13 - Chemical Equillibrium</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 14 - Ionic Equillibrium (Elementary)</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 15 - Ionic Equillibrium (Advanced)</div>
   		</label>
@@ -693,9 +854,13 @@
 		<h3>Unit - VII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 16 - Equivalent Concept & Titrations</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 17 - Electrochemistry</div>
   		</label>
@@ -703,11 +868,15 @@
 		<h3>Unit - VIII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 18 - Chemical Kinetics</div>
   		</label>
 
 		<h3>Unit - IX</h3>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 19 - Surface Chemistry</div>
   		</label>
@@ -716,11 +885,15 @@
 		<h3>Unit - X</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 20 - Periodic Table & Periodicity</div>
   		</label>
 
 		<h3>Unit - XI</h3>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 21 - Metallurgy</div>
   		</label>
@@ -728,21 +901,31 @@
 		<h3>Unit - XII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 22 - s-Block</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 23 - p-Block (Boron and Carbon)</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 24 - p-Block (Nitrogen & Oxygen)</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 25 - p-Block (Halogen & Noble Gases)</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 26 - d & f-Block</div>
   		</label>
@@ -750,11 +933,15 @@
 		<h3>Unit - XIII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 27 - Co-ordination Compounds</div>
   		</label>
 
 		<h3>Unit - XIV</h3>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 28 - Environmental Chemistry</div>
   		</label>
@@ -762,9 +949,13 @@
 		<h3>Unit - XV</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 29 - Qualitative Analysis (Anions)</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 30 - Qualitative Analysis (Cations)</div>
   		</label>
@@ -773,17 +964,25 @@
 		<h3>Unit - XVI</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 31 - IUPAC Nomenclature & Structural Isomerism</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 32 - Structural Identification & Practical Organic Chemistry</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 33 - Basic Inorganic Nomenclature</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 34 - Stereoisomerism</div>
   		</label>
@@ -791,9 +990,13 @@
 		<h3>Unit - XVII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 35 - General Organic Chemistry - I</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 36 - General Organic Chemistry - II</div>
   		</label>
@@ -801,17 +1004,25 @@
 		<h3>Unit - XVIII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 37 - Organic Reaction Mechanisms - I</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 38 - Organic Reaction Mechanisms - II</div>
   		</label>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 39 - Organic Reaction Mechanisms - III</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 40 - Organic Reaction Mechanisms - IV</div>
   		</label>
@@ -819,15 +1030,21 @@
 		<h3>Unit - XIX</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 41 - Reduction, Oxidation & Hydrolysis</div>
   		</label>
 
 		<h3>Unit - XX</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 42 - Aromatic Compounds</div>
   		</label>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="">Chapter 43 - Carbonyl Compounds</div>
   		</label>
@@ -835,17 +1052,23 @@
 		<h3>Unit - XXI</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 44 - Polymers</div>
   		</label>
 
 		<h3>Unit - XXII</h3>
 		<label class="Topics">
   			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 45 - Biomolecules</div>
   		</label>
 
 		<h3>Unit - XXIII</h3>
 		<label class="Topics">
+  			<input type="checkbox" name="checkbox" />
+  			<input type="checkbox" name="checkbox" />
   			<input type="checkbox" name="checkbox" />
   			<div class="highlight">Chapter 46 - Chemistry in Everyday Life</div>
   		</label>
