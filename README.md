@@ -42,7 +42,7 @@ Programming Languages
 
 <hr><h1 align="center"><b>🌍<i>Contact</i>🌍</b></h1> 
 <p align="center"><br>
-<a href="https://open.spotify.com/user/necj33rd3m1wb5klvdjtp4z1q?si=be17277a60be486b"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white"></a> <a href="https://anilist.co/user/ThunderBlaze/"><img src="https://img.shields.io/badge/AniList-AniList-blue?style=for-the-badge&logo=Anilist&logoColor=white&labelColor=%2306BEE1&color=%2306BEE1&label="></a>
+<a href="https://open.spotify.com/user/5ojj992bis628lmgecss28cry?si=ec0efcb17eaa42ad&nd=1"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white"></a> <a href="https://anilist.co/user/ThunderBlaze/"><img src="https://img.shields.io/badge/AniList-AniList-blue?style=for-the-badge&logo=Anilist&logoColor=white&labelColor=%2306BEE1&color=%2306BEE1&label="></a>
 
 
 <hr><h1 align="center"><b>❄<i>Repository</i>❄</b></h1> 
