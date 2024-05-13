@@ -9,11 +9,11 @@
 <br><b> >>> Loves = </b>["Anime", "Coding", "Sleeping"]
 <br><b> >>> Gender = </b>"He/Him/Male ♂️"
 <br><b> >>> Hobby = </b>["Web Development", "Graphic Design"]
-<br><b> >>> Working On = </b>"Anilist Profile"
+<br><b> >>> WorkingOn = </b>"Anilist Profile"
 <br><b> >>> Website = </b><a href="thunder-blaze.github.io">"Thunder-Blaze.github.io"</a>
 <br><b> >>></b> print(" Currently a Student ")
 <br><b> >>></b> print(" Living in India ")
-<br><b> >>></b> print(" 17 Years Old ")</div>
+<br><b> >>></b> print(" 18 Years Old ")</div>
 
 
 <hr><h1 align="center"><b>💦<i>Stats</i>💦</b></h1>
