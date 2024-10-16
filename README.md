@@ -13,7 +13,7 @@
 <br><b> >>> Website = </b><a href="thunder-blaze.github.io">"Thunder-Blaze.github.io"</a>
 <br><b> >>></b> print(" Currently a Student ")
 <br><b> >>></b> print(" Living in India ")
-<br><b> >>></b> print(" 18 Years Old ")</div>
+<br><b> >>></b> print(" 19 Years Old ")</div>
 
 
 <hr><h1 align="center"><b>💦<i>Stats</i>💦</b></h1>
@@ -57,3 +57,5 @@ This Is How It's Always Been For Me. Everything Worth Wanting Is Lost The Moment
 And Nothing I Pursue Is Worth The Cost Of Prolonging This Life, This Suffering."
 - Osamu Dazai
 ```
+
+[![An image of @thunderblaze's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/thunderblaze)](https://holopin.io/@thunderblaze)
