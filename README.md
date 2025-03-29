@@ -3,7 +3,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=500&size=16&duration=3000&pause=1500&color=06BEE1&center=true&vCenter=true&width=700&height=20&lines=01010011+01001000+01001001+01010110+01000001+01001110+01010011+01001000">
 </p>
 <hr>
-<h1 align="center"><b>✨<i>About Me</i>✨</b></h1>
+<h1 align="center"><b>✨ About Me</i></b></h1>
 <img width=355 align="right" src="./Assets/Eren-Mikasa-Armin.png">
 <div align="left"><b>>>> Name = </b>"Shivansh Jain"
 <br><b> >>> Loves = </b>["Anime", "Coding", "Sleeping"]
@@ -16,7 +16,7 @@
 <br><b> >>></b> print(" 19 Years Old ")</div>
 
 
-<hr><h1 align="center"><b>💦<i>Stats</i>💦</b></h1>
+<hr><h1 align="center"><b>📊 <i>Stats</i></b></h1>
 <div align="center">
 
 <img width=388 align="center" src="https://github-readme-streak-stats.herokuapp.com?user=thunder-blaze&theme=react&border_radius=10&background=102060&border=E2F1F1&fire=00FFFF&ring=06BEE1&sideLabels=06BEE1&currStreakNum=00FFFF&currStreakLabel=00FFFF&sideNums=00FFFF&dates=E2F1F1" alt="thunder-blaze streak" /> &nbsp; <img width=420 align="center" src="https://github-readme-stats.vercel.app/api?username=thunder-blaze&hide=issues&count_private=true&text_bold=false&cache_seconds=86400&border_radius=10&icon_color=06BEE1&show_icons=true&locale=en&include_all_commits=true&text_color=E2F1F1&title_color=00FFFF&bg_color=102060" alt="thunder-blaze stats" />
@@ -24,7 +24,7 @@
 </div>
 
 
-<hr><h1 align="center"><b>🔥<i>KnowHow</i>🔥</b></h1>
+<hr><h1 align="center"><b>🧠 <i>KnowHow</i></b></h1>
 <center>
 <h3 align=center>
 
@@ -40,12 +40,12 @@ Programming Languages
 </h4></center>
 
 
-<hr><h1 align="center"><b>🌍<i>Contact</i>🌍</b></h1> 
+<hr><h1 align="center"><b>🌍 <i>Contact</i></b></h1> 
 <p align="center"><br>
 <a href="https://open.spotify.com/user/5ojj992bis628lmgecss28cry?si=ec0efcb17eaa42ad&nd=1"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white"></a> <a href="https://anilist.co/user/ThunderBlaze/"><img src="https://img.shields.io/badge/AniList-AniList-blue?style=for-the-badge&logo=Anilist&logoColor=white&labelColor=%2306BEE1&color=%2306BEE1&label="></a>
 
 
-<hr><h1 align="center"><b>❄<i>Repository</i>❄</b></h1> 
+<hr><h1 align="center"><b>❄ <i>Repository</i></b></h1> 
 <div align="center">
  
 <a href="https://github.com/thunder-blaze/Anilist-CSS"><img width=400 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=thunder-blaze&repo=Anilist-CSS&border_radius=10&icon_color=06BEE1&locale=en&include_all_commits=true&text_color=E2F1F1&title_color=00FFFF&bg_color=102060" /></a><a href="https://github.com/thunder-blaze/thunder-blaze.github.io"> &nbsp; <img width=400 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=thunder-blaze&repo=thunder-blaze.github.io&border_radius=10&icon_color=06BEE1&locale=en&include_all_commits=true&text_color=E2F1F1&title_color=00FFFF&bg_color=102060" /></a>
